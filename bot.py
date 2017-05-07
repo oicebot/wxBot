@@ -45,6 +45,7 @@ class TulingWXBot(WXBot):
             print '    ROBOT:', result
             return result
         else:
+            # deal with messages from here...
             return u"知道啦"
 
     def auto_switch(self, msg):
